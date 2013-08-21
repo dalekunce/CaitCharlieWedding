@@ -1,0 +1,149 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               "-77.0468786",
+               "38.9164322"
+            ]
+         },
+         "properties":{
+            "Name":"Churchill Hotel",
+            "Address":"1914 Connecticut Ave. NW Washington DC 20009",
+            "Event":"After party",
+            "Icon":"party"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               "-77.036974",
+               "38.906662"
+            ]
+         },
+         "properties":{
+            "Name":"Marriott Courtyard Embassy Row",
+            "Address":"1600 Rhode Island Ave NW Washington DC 20036",
+            "Event":"",
+            "Icon":"hotel"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               "-77.0355634",
+               "38.9077819"
+            ]
+         },
+         "properties":{
+            "Name":"DoubleTree Hotel",
+            "Address":"1515 Rhode Island Ave NW Washington DC 20005",
+            "Event":"Brunch",
+            "Icon":"brunch"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               "-77.0399671",
+               "38.9073779"
+            ]
+         },
+         "properties":{
+            "Name":"Tabard Inn",
+            "Address":"1739 N Street NW Washington D.C. 20036",
+            "Event":"Rehearsal Dinner ",
+            "Icon":"Dinner"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               "-77.0382489",
+               "38.920096"
+            ]
+         },
+         "properties":{
+            "Name":"Meridian House",
+            "Address":"1630 Crescent Place NW Washington, DC 20009",
+            "Event":"Ceremony/Reception",
+            "Icon":"Ceremony"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               "-77.0394479",
+               "38.9232532"
+            ]
+         },
+         "properties":{
+            "Name":"Charlie & Caitlin's",
+            "Address":"1711 Euclid St. NW Apt 2 Washington, DC 20009",
+            "Event":"",
+            "Icon":"apt"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               "-77.042316",
+               "38.908494"
+            ]
+         },
+         "properties":{
+            "Name":"Big Hunt",
+            "Address":"1345 Connecticut Ave NW  Washington, DC 20036",
+            "Event":"Charlie and Caitlin's first date",
+            "Icon":"favdate"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               "-77.0438318",
+               "38.9213236"
+            ]
+         },
+         "properties":{
+            "Name":"Napolean Café",
+            "Address":"1847 Columbia Road NW  Washington DC 20009",
+            "Event":"Favorite brunch place",
+            "Icon":"favbrunch"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               "-77.0427117",
+               "38.9216982"
+            ]
+         },
+         "properties":{
+            "Name":"Millie & Al's",
+            "Address":"2440 18th Street Northwest Washington, DC 20009",
+            "Event":"Favorite dive bar",
+            "Icon":"favdivebar"
+         }
+      }
+   ]
+}
