@@ -10,25 +10,64 @@
   <!--[if lte IE 8]>
     <link href='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet' />
     <![endif]-->
-    <script src='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
+    
 
     <style>
     	#map {
     		position:absolute;
     		top:0;
     		bottom:0;
-    		right:0;
-    		left:0;
+    		right:200px;
+            left:0;
     	}
+        #right {
+            position: absolute;
+            top:0;
+            bottom:0;
+            right:0;
+            width:200px;
+            background-color:#045;
+            color:#fff;
+
+        }
+        #right a:link, #right a:visited, #right a:hover{
+            font: 12px normal Arial;
+            color: #fff;
+            text-decoration: none;
+        }
+        #right a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-	<div id="map" style="position:absolute;top:0;bottom:0;right:0;left:0;"></div>
-	
+	<div id="map"></div>
+	<div id="right"></div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
 	<script>
 		var map = L.mapbox.map('map', 'dkunce.map-8jl57yvc', {
 		})
 		.setView([38.915, -77.04], 15);
+
+        var markerLayer = L.mapbox.markerLayer()
+        .addTo(map);
+        markerLayer.loadID('dkunce.map-8jl57yvc');
+
+        var html;
+
+        $(document).ready(function () {
+            markerLayer.setFilter(function(m) {
+                var marker = m.properties
+
+                $('#right').append(marker.title + '<br />');
+            });
+
+            
+        });
+
+        
+
 	</script>
 </body>
 </html>
